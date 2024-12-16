@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+  font-family: Verdana, sans-serif;
+  font-size: 100%;
+}
+h1 {
+  font-size: 200%;
+  color: rgb(0, 128, 32);
+  text-align: center;
+}
+h2 {
+  font-size: 150%;
+  color: red;
+  /* padding-left: 15px; */
+  text-align: center;
+}
+p,
+td {
+  color: black;
+}
+ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+ul li {
+  padding-left: 2rem;
+  background-image: url(arrow.svg);
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+}
+
+a:link {
+  color: green;
+  text-decoration: underline;
+}
+a:visited {
+  color: gray;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+a:active,
+a:focus {
+  color: red;
+}
