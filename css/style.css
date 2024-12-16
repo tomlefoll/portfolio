@@ -1,8 +1,14 @@
+body {
+  margin: 0;
+}
+
 header {
   display: flex;
   background-color: aquamarine;
   align-items: center;
-  justify-content: ;
+  justify-content: space-between;
+  margin: 0;
+  padding: 10px;
 }
 
 img {
