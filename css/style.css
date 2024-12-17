@@ -37,14 +37,6 @@ ul {
   gap: 10px;
 }
 
-#presentation {
-  font-size: large;
-  width: 80%;
-  margin: auto;
-  display: flex;
-  gap: 10px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
 footer {
   background-color: #2a475e;
   justify-content: center;
@@ -56,4 +48,21 @@ footer {
 }
 #logo-img {
   width: 80%;
+}
+article {
+  width: 100%;
+  height: 100%;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  gap: 10px;
+  margin: auto;
+  width: 80%;
+}
+#sumerien {
+  width: 48%;
+  height: 25%;
 }
