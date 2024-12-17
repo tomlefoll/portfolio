@@ -67,7 +67,7 @@ section {
   height: 25%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   section {
     display: flex;
     flex-direction: column;
