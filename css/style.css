@@ -51,3 +51,9 @@ footer {
   display: flex;
   color: beige;
 }
+#solo {
+  padding-top: 15px;
+}
+#solo-img {
+  width: 88%;
+}
