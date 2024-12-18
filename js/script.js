@@ -21,3 +21,9 @@ function afficherEncorUnAutreMessage() {
 document
   .getElementById("copyright")
   .addEventListener("click", afficherEncorUnAutreMessage);
+
+function afficherAlgo() {
+  alert("vous avez cliquer sur les debuts de l'algorithme");
+}
+// Ajouter un écouteur d'événement sur le bouton
+document.getElementById("algo").addEventListener("click", afficherAlgo);
