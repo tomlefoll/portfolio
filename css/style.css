@@ -23,13 +23,24 @@ a {
   text-decoration: none;
   color: beige;
 }
-
+h1 {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+p {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+}
 img {
   height: 150px;
   width: 150px;
 }
 nav {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 ul {
   list-style: none;
@@ -39,6 +50,7 @@ ul {
 section {
   display: flex;
   flex-wrap: wrap;
+  margin: 2%;
 }
 article {
   text-align: center;
